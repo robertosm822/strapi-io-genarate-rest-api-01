@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "planets",
+  "info": {
+    "name": "planets",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "planet_id": {
+      "default": "",
+      "unique": true,
+      "type": "integer",
+      "required": true
+    },
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "climate": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "terrain": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
